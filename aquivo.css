@@ -1,0 +1,34 @@
+*{
+  margin: 0;  
+  padding: 0;
+
+}
+
+    :root {
+        --color-text-desktop: red;
+}
+nav{
+    background-color: aqua;
+    display: flex;
+    gap: 30px;
+    border: solid  5px green;
+    text-decoration: none;
+}
+
+.inicio{
+    background-color: var(--color-text-desktop);
+    color: white;
+    font-size: 55px;
+    gap: 30px;
+    border: solid  5px green;
+}
+
+.logo img{
+    background-image: url(./Fotos/2.jpeg);
+
+}
+
+img{
+    width: 500px;
+    height: 200px;
+}
